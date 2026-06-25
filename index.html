@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lưu Tọa Độ Sang GPX</title>
+    <title>Lưu Tọa Độ Sang GeoJSON</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon"
         href="https://raw.githubusercontent.com/minhtanz1/gpx-coordinate-saver/refs/heads/testing/img/favicon.ico">
@@ -25,7 +25,7 @@
     </div>
 
     <div class="container">
-        <h1>Lưu Tọa Độ Sang GPX</h1>
+        <h1>Lưu Tọa Độ Sang GeoJSON</h1>
 
         <!-- Dark Mode Toggle Button -->
         <button id="darkModeToggle" class="dark-mode-toggle">Chế độ tối</button>
@@ -50,10 +50,11 @@
         </div>
 
         <div class="action-buttons">
-            <button id="exportGPX">Xuất GPX</button>
+            <button id="exportGeoJSON">Xuất GeoJSON</button>
             <button id="clearAll">Xóa Tất Cả</button>
-            <button id="importGPXBtn">Đọc GPX</button>
-            <input type="file" id="gpxFileInput" class="hidden-input" accept=".gpx">
+            <button id="importGeoJSONBtn">Đọc GeoJSON</button>
+            <input type="file" id="geoJsonFileInput" class="hidden-input"
+                accept=".geojson,application/geo+json,application/json">
         </div>
         <!-- Section for GPS Input -->
         <div id="gpsInputSection" class="input-section">
@@ -74,7 +75,7 @@
 
 
         <div id="fileInfoContainer" style="display: none;" class="file-info">
-            <h3>Thông tin File GPX</h3>
+            <h3>Thông tin File GeoJSON</h3>
             <div id="fileInfo"></div>
         </div>
 

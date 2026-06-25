@@ -52,19 +52,19 @@
         "filename": "speed_cam.svg"
     },
     {
-        "name": "Cấm rẽ phải",
+        "name": "Cấm quẹo phải",
         "filename": "cam_re_phai.svg"
     },
     {
-        "name": "Cấm rẽ trái",
+        "name": "Cấm quẹo trái",
         "filename": "cam_re_trai.svg"
     },
     {
-        "name": "Cấm quay đầu & rẽ phải",
+        "name": "Cấm quay đầu & quẹo phải",
         "filename": "cam_quay_dau_re_phai.svg"
     },
     {
-        "name": "Cấm quay đầu & rẽ trái",
+        "name": "Cấm quay đầu & quẹo trái",
         "filename": "cam_quay_dau_re_trai.svg"
     },
     {
@@ -80,11 +80,11 @@
         "filename": "het_cam_vuot.svg"
     },
     {
-        "name": "Cấm đổ xe",
+        "name": "Cấm đậu xe",
         "filename": "cam_do_xe.svg"
     },
     {
-        "name": "Cấm dừng và đổ",
+        "name": "Cấm dừng và đậu",
         "filename": "cam_dung_va_do.svg"
     },
     {
